@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .header{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(26, 26, 27);
+    background-image: none;
+    background-position:center;
+    background-size:cover;
+    position: fixed;
+    overflow:visible;
+}
+.header1{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(Images/nyc1.jpg);
+    background-position: center;
+    background-size: none;
+    position: relative;
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background: rgb(0, 0, 0);
+    padding: 0 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex:1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size:  13px;
+}
+.nav-link{
+    flex:1;
+    text-align: center;
+}
+.text-on{
+    width: 90%;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50% );
+    text-align: center;
+}
+.text-on h1{
+    font-size: 62px;
+}
+.text-on p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+.txt-5{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50% );
+    text-align: center;
+}
+.txt-5 h1{
+    font-size: 62px;
+}
+.txt-5{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+
+@media(max-width:700px){
+    .text-on h1{
+        font-size: 18px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background:#f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }
+}
+.body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(Images/nyc5.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.section-class2{
+    min-height: 80vh;
+    width: 100%;
+    background-image: url(Images/nyc6.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+table{
+    width: 850px;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.Iimage{
+    display: block;
+    width: 800px;
+    margin: 0 auto;
+    transition: 10s;
+}
+.item{
+    padding: 10px;
+}
+.btn-BuildYours{
+    position: relative;
+    text-align: center;
+    width: 150px;
+    outline: royalblue;
+    display: inline-block;
+    border: 0;
+    font-size: 15px;
+    line-height: 0;
+    padding: 20px;
+    border-radius: 50px;
+    background: #0081D5;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+  .btn{
+    position: relative;
+    text-align: center;
+    width: 180px;
+    outline: royalblue;
+    display: inline-block;
+    border: 0;
+    font-size: 15px;
+    line-height: 1;
+    padding: 20px;
+    border-radius: 30px;
+    background: #0081D5;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s linear;
+  }
+  .header2{
+    height: 13vh;
+    width: 100%;
+    align-content: center;
+    background-color: rgb(8, 8, 116);
+    background-position:center;
+    background-size:cover;
+    position: relative;
+  }
+  .btn1{
+    position: relative;
+    text-align: center;
+    width: 100px;
+    outline: royalblue;
+    display: inline-block;
+    border: 0;
+    font-size: 12px;
+    line-height: 1;
+    padding: 15px;
+    border-radius: 15px;
+    background: #0081D5;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s linear;
+  }
+  .btn2{
+    position: relative;
+    text-align: center;
+    width: 100px;
+    font-size: 12px;
+    padding: 15px;
+  }
+  
